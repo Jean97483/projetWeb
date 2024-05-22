@@ -1,0 +1,161 @@
+/* Paramètre styles page entière */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style du corp de la page*/
+html, body {
+    font-family: Arial, sans-serif; /* Police de caractère par défaut */
+    background-color: #f0f0f0; /* Couleur de fond de la page */
+    color: #333; /* Couleur par défaut de la page */
+    margin: 0;
+    padding: 0;
+}
+/* Style de l'en-tête*/
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+/* Style de la navigation*/
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffc107
+}
+
+/* Style de la section principale */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style des sections */
+section {
+    width: 80%;
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style des formulaires de filtre */
+.form-group {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    margin-right: 10px;
+}
+
+select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Style des événements */
+#events-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.event {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.event img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.event h3 {
+    margin: 10px 0;
+}
+
+.event button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.event button:hover {
+    background-color: #0056b3;
+}
+
+/* Style du panier */
+#cart-items {
+    margin-top: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cart-item button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cart-item button:hover {
+    background-color: #c82333;
+}
+
+
+
+/* Style pour le pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    flex-shrink: 0;
+}

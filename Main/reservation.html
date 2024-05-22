@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Jeux Olympiques</title>
+    <link rel="stylesheet" href="../CSS/reservation.css">
+</head>
+<body>
+    <header>
+        <!--Menu de navigation-->
+        <nav>
+            <ul>
+                <li><a href="../Main/index.html">Accueil</a></li>
+                <li><a href="../Main/reservation.html">Réservations</a></li>
+                <li><a href="../Main/Connexion.html">Se Connecter/s'inscrire</a></li>
+                <li><a href="#">Panier</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="events">
+            <h2>Evénements</h2>
+            <div class="form-group">
+                <label for="date-filtre">Date</label>
+                <select id="date-filtre">
+                    <option value="">Toutes les dates</option>
+                    <!--je dois ajouter des option de date dynamiquement-->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="sport-filtre">Sport</label>
+                <select id="sport-filtre">
+                    <option value="">Toutes les sports</option>
+                    <!--je dois ajouter des option de date dynamiquement-->
+                </select>
+            </div>
+            <div id="events-list">
+                <!--Les événements seront ajoutés dynamiquement ici-->
+
+            </div>
+        </section>
+
+        <section id="cart">
+            <h2>Panier</h2>
+            <div id="cart-items">
+                <!--Les articles du panier seront ajoutés dynamiquement ici-->
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Jeux Olympiques - Tous droits réservés</p>
+    </footer>
+
+    <script src="../Javascript/reservation.js"></script>
+
+</body>
+</html>

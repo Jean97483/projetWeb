@@ -1,0 +1,291 @@
+/* Paramètre styles page entière */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style du corp de la page*/
+html, body {
+    font-family: Arial, sans-serif; /* Police de caractère par défaut */
+    background-color: #f0f0f0; /* Couleur de fond de la page */
+    color: #333; /* Couleur par défaut de la page */
+    margin: 0;
+    padding: 0;
+}
+/* Style de l'en-tête*/
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+/* Style de la navigation*/
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffc107
+}
+
+/* Style de la section principale */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style pour la section d'accueil */
+
+#accueil {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-inline: auto;
+    max-width: 1000px;
+    justify-content: center;
+}
+
+#accueil h1 {
+    font-size: 2.5em;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#accueil p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+#accueil p:first-of-type {
+    margin-bottom: 0;
+
+}
+
+#accueil p:last-of-type {
+    margin-bottom: 0;
+}
+
+/* Style pour les paragraphes à l'intérieur de la section accueil */
+
+#accueil p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#accueil p::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #007bff;
+}
+
+#accueil p span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style pour les liens */
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style pour les boutons */
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Style pour la section des évènements */
+#evenements {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    margin: 0;
+}
+
+/* Style pour chaque évènement */
+.evenement {
+    border: 1px solid #000;
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.evenement img {
+    max-width: 420px;
+    max-height: 280px;
+    height: auto;
+}
+
+.figcaption-evenement {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+figcaption a {
+    color: #fff;
+}
+
+.description {
+    overflow: hidden;
+    max-height: 50px;
+    transition: max-heigth 0.3s ease;
+}
+
+.description.expanded {
+    max-height: none;
+}
+
+.evenement h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.evenement p {
+    margin: 0;
+}
+
+.evenement button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.evenement button:hover {
+    background-color: #0056b3;
+}
+
+.info-evenement {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info-evenement p {
+    margin-right: 10px;
+}
+
+.evenement:nth-child(1) {
+    width: 100%;
+}
+
+.evenement:nth-child(2) {
+    width: 100%;
+}
+
+.evenement:nth-child(3) {
+    width: 100%;
+}
+
+/* Style pour la section réservation */
+
+#reservation {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-inline: auto;
+    max-width: 1000px;
+    justify-content: center;
+}
+
+#reservation h2 {
+    font-size: 2.5em;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#reservation p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+#reservation p:first-of-type {
+    margin-bottom: 0;
+
+}
+
+#reservation p:last-of-type {
+    margin-bottom: 0;
+}
+
+/* Style pour les paragraphes à l'intérieur de la section reservation */
+#reservation p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#reservation p::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Style pour chaque évènement */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    flex-shrink: 0;
+}

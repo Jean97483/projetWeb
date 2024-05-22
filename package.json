@@ -1,0 +1,17 @@
+{
+  "name": "jeux-olympiques",
+  "version": "1.0.0",
+  "description": "un système permettant la réservation de ticket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BEONEL Jean",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1"
+  },
+  "keywords": []
+}

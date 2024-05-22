@@ -1,0 +1,126 @@
+/* Paramètre styles page entière */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Style du corp de la page*/
+html, body {
+    font-family: Arial, sans-serif; /* Police de caractère par défaut */
+    background-color: #f0f0f0; /* Couleur de fond de la page */
+    color: #333; /* Couleur par défaut des textes */
+    margin: 0; /* Supprimer les marges par défaut */
+    padding: 0; /* Supprimer les paddings par défaut */
+}
+/* Style de l'en-tête*/
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+/* Style de la navigation*/
+nav ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 20px; /* Espacement entre les éléments */
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffc107
+}
+
+.container {
+    width: 80%; /* Largeur du conteneur */
+    margin: 50px auto; /* Centrer le conteneur horizontalement */
+    background-color: #fff; /* Couleur de fond du conteneur */
+    padding: 20px; /* Espacement interne du conteneur */
+    border-radius: 5px; /* Coins arrondis du conteneur */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre portée pour effet de profondeur */
+}
+
+h2 {
+    margin-bottom: 20px; /* Espacement en bas des titres */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Espacement entre les groupes de formulaire */
+}
+
+label {
+    display: block; /* Afficher les étiquettes sur une ligne séparée */
+    margin-bottom: 5px; /* Espacement en bas des étiquettes */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Largeur des champs de saisie */
+    padding: 10px; /* Espacement interne des champs de saisie */
+    border: 1px solid #ccc; /* Bordure des champs de saisie */
+    border-radius: 5px; /* Coins arrondis des champs de saisie */
+    box-sizing: border-box; /* Inclure la bordure et le padding dans la largeur totale */
+}
+
+button[type="submit"] {
+    width: 100%; /* Largeur du bouton */
+    padding: 10px; /* Espacement interne du bouton */
+    background-color: #007bff; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    border: none; /* Supprimer la bordure du bouton */
+    border-radius: 5px; /* Coins arrondis du bouton */
+    cursor: pointer; /* Curseur de type pointeur au survol */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Changement de couleur de fond au survol */
+}
+
+div a {
+    display: block; /* Afficher le lien sur une ligne séparée */
+    text-align: center; /* Centrer le texte du lien */
+    text-decoration: none; /* Supprimer le soulignement du lien */
+    color: #007bff; /* Couleur du texte du lien */
+    margin-top: 20px; /* Espacement en haut du lien */
+}
+
+a:hover {
+    color: #0056b3; /* Changement de couleur du texte au survol */
+}
+
+#registerForm {
+    margin-top: 20px; /* Espacement en haut du formulaire */
+}
+
+#registerForm button[type="submit"] {
+    background-color: #28a745; /* Couleur de fond du bouton d'inscription */
+}
+
+#registerForm button[type="submit"]:hover {
+    background-color: #218838; /* Changement de couleur de fond au survol */
+}
+
+/* Style pour chaque évènement */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    flex-shrink: 0;
+}
